@@ -1,15 +1,12 @@
-import Link from 'next/link'
+import Logo from '../moleculas/logo'
+import CTAButton from '../atomos/button'
 
 const Navbar = () => {
   return (
-      <div className="nav-container">
-        <div className="logo">
-          <Link href="/">
-            Alejandro
-          </Link>
-        </div>
-        <a href="" className="cta-btn">Resume</a>
-      </div>
+    <div className="nav-container">
+      <Logo />
+      <CTAButton href="mailto:example@kinsta.com">Contactame</CTAButton>
+    </div>
   )
 }
 

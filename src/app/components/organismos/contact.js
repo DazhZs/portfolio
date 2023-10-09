@@ -1,10 +1,16 @@
+import Heading from '../atomos/heading'
+import Paragraph from '../atomos/parrafo'
+import CtaSection from '../moleculas/ctaSection'
+
 const Contact = () => {
   return (
-      <div className="contact-container">
-        <h2>Get In Touch</h2>
-        <p>If you want us to work together, have any questions or want me to speak at your event, my inbox is always open. Whether I just want to say hi, I will try my best to get back to you! Cheers!</p>
-        <a href="mailto:example@kinsta.com" className='cta-btn'>Say Hello</a>
-      </div>
+    <div className="contact-container">
+      <Heading>Contactame</Heading>
+      <Paragraph>Si quieres que trabajemos juntos, tienes alguna pregunta o quieres que hable en tu evento,
+        mi bandeja de entrada está siempre abierta. Ya sea que solo quiera saludar,
+        ¡haré todo lo posible para comunicarme con usted! ¡Saludos!</Paragraph>
+      <CtaSection href="mailto:example@kinsta.com"></CtaSection>
+    </div>
   )
 }
 

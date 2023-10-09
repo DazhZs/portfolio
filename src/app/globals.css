@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #1D1E20;
+  background-color: #202434;
   color: #DADADB;
   width: 900px;
   margin: 0 auto;
@@ -37,7 +37,7 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-  background-color: #1D1E20;
+  background-color: #202434;
 }
 
 .nav-container .logo {
@@ -51,8 +51,8 @@ li {
 }
 
 .cta-btn {
-  background-color: #FFCC1A;
-  color: #1D1E20;
+  background-color: #E3B54C;
+  color: #202434;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   font-size: 1rem;
@@ -86,29 +86,12 @@ hr {
   justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
-  background-color: #1D1E20;
+  background-color: #202434;
 }
 
 .footer-container p {
   font-size: 0.8rem;
   color: #9B9C9D;
-}
-
-.footer-container .social_icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0 1rem;
-}
-
-.footer-container .social_icons a {
-  color: #9B9C9D;
-  font-size: 1.5rem;
-  transition: all 0.5s ease-in-out;
-}
-
-.footer-container .social_icons a:hover {
-  color: #DADADB;
 }
 
 /* Hero */
@@ -257,7 +240,7 @@ hr {
 }
 
 .skills-container .grid-skills .skill-card {
-  background-color: #DADADB;
+  background-color: #E3B54C;
   color: #1D1E20;
   display: flex;
   justify-content: center;
@@ -272,30 +255,6 @@ hr {
 
 .skills-container .grid-skills i {
   font-size: 1.5rem;
-}
-
-.skills-container .grid-skills .html:hover {
-  background-color: #E34F26;
-}
-
-.skills-container .grid-skills .css:hover {
-  background-color: #264DE4;
-}
-
-.skills-container .grid-skills .js:hover {
-  background-color: #F7DF1E;
-}
-
-.skills-container .grid-skills .react:hover {
-  background-color: #61DAFB;
-}
-
-.skills-container .grid-skills .node:hover {
-  background-color: #339933;
-}
-
-.skills-container .grid-skills .python:hover {
-  background-color: #3776AB;
 }
 
 /* Projects */
@@ -336,7 +295,7 @@ hr {
 
 .project-card .folder-icon {
   font-size: 35px;
-  color: #FFCC17;
+  color: #E3B54C;
 }
 
 .project-header .small-icons {
@@ -351,7 +310,7 @@ hr {
 }
 
 .project-card .small-icons a:hover {
-  color: #FFCC17;
+  color: #E3B54C;
 }
 
 .project-card .project h3 {
